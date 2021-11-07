@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/framework.css">
+    <title>Tarea Seleccionada Estudiante</title>
+</head>
+<body>
+    <header class="navbar border border-light little_margin bg-light">
+        <div id="navbar-header">
+            <img id="logo" src="/Img/logo.png" alt="">
+            <h1 class="navbar-brand">Edúcate</h1>
+        </div>
+        <nav class="navbar-collapse bg-color-page">
+            <ul class="navbar-nav flex_content_row">
+                <li class="nav-item">
+                    <a href="cursos.html" class="nav-link-header">Cursos</a></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/calendario.html" class="nav-link-header">Calendario</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/chat.html" class="nav-link-header">Mensajes</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="navbar-header">
+            <img id="icon_image_s" src="/Img/notifi.png" alt="">
+            <a href="/Perfil.html"><img id="icon_image_m" src="/Img/profile.png" alt=""></a>
+        </div>
+    </header>
+    <div class="flex_content_row">
+        <div id="activi_main_page">
+            <div class="element_content_prin little_padding bg-light border border-dark">
+                <div class="flex_content_row little_padding bg-color-page border border-dark">
+                    <img class="image_header_container"  src="/Img/calendar.png" alt="">
+                    <h5 class="margin_null">Actividades Próximas</h5>
+                </div>
+                <div class="little_padding bg-color-page little_margin_content border border-dark padding_margin_null">
+                    <table id="table_center_elem" class="table">
+                        <tr>
+                            <td><a id="link_style" href="">Tarea 1</a></td>
+                            <td>10/01/2021</td>
+                        </tr>
+                        <tr>
+                            <td><a id="link_style" href="">Tarea 2</a></td>
+                            <td>20/01/2021</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="element_content_prin little_padding_s bg-light border border-dark">
+                <div class="flex_content_row little_padding bg-color-page border border-dark">
+                    <img class="image_header_container" src="/Img/clock.png" alt="">
+                    <h5 class="margin_null">Avisos</h5>
+                </div>
+                <div class="little_padding bg-color-page little_margin_content border border-dark">
+                    <div>
+                        <p>Nombre Profesor - Materia 1</p>
+                    </div>
+                    <div>
+                        <p>01/01/2021</p>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eos, quia aliquam sed quo explicabo reprehenderit placeat dolores eveniet labore odio vel perspiciatis, consequuntur cupiditate aut tempore suscipit totam porro.</p>
+                    </div>
+                    <form action="">
+                        <input class="input_text input_text_size_S" type="text" name="comment" placeholder="Escribe un comentario">
+                        <input class="btn btn-info" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+            <div class="element_content_prin little_padding_s bg-light border border-dark">
+                <div class="flex_content_row little_padding bg-color-page border border-dark">
+                    <img class="image_header_container" src="/Img/Admin-config.png" alt="">
+                    <h5>Administración</h5>
+                </div>
+                <div class="little_padding bg-color-page little_margin_content border border-dark">
+                    <a id="link_style" class="little_padding" href="">Darme de baja del curso</a>
+                </div>
+            </div>
+        </div>
+        <div id="aviso_main_page">
+            <div class="element_content_prin little_padding_s">
+                <div>
+                    <h4>Tarea 1 (Ejemplo)</h4>
+                </div>
+                <div class="little_padding">
+                    <p>(Descripción) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, rerum facere, at delectus quasi beatae nam voluptas quibusdam, magni pariatur corrupti soluta nisi eligendi. Reprehenderit accusantium consectetur dolorum animi architecto.</p>
+                    <a id="link_style" href="">Archivo.pdf</a>
+                </div>
+            </div>
+            <div class="little_padding_horizontal">
+                <table class="table table-info">
+                    <tr>
+                        <th>Fecha de Publicaión</th>
+                        <td>01/01/2021</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha de Entrega</th>
+                        <td>31/01/2021</td>
+                    </tr>
+                    <tr>
+                        <th>Estado</th>
+                        <td>No Entregado</td>
+                    </tr>
+                    <tr>
+                        <th>Calificación</th>
+                        <td>No calificado</td>
+                    </tr>
+                    <tr>
+                        <th>Última modificación</th>
+                        <td>02/01/2021</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <form>
+                    <span class="col_align_items_center">
+                        <input class="btn btn-success little_margin_top" type="file" value="Subir Archivo" required>
+                        <br>
+                        <textarea class="input_text input_text_size_S" name="comment" id="" cols="25" rows="5" placeholder="Comentarios"></textarea>
+                    </span>
+                    <span id="right_position" class="little_margin">
+                        <input class="btn btn-info little_margin" type="submit" value="Guardar">
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

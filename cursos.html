@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/framework.css">
+    <title>Mis cursos</title>
+</head>
+<body>
+    <header class="navbar border border-light little_margin bg-light">
+        <div id="navbar-header">
+            <img id="logo" src="/Img/logo.png" alt="">
+            <h1 class="navbar-brand">Edúcate</h1>
+        </div>
+        <nav class="navbar-collapse bg-color-page">
+            <ul class="navbar-nav flex_content_row">
+                <li class="nav-item">
+                    <a href="cursos.html" class="nav-link-header">Cursos</a></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/calendario.html" class="nav-link-header">Calendario</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/chat.html" class="nav-link-header">Mensajes</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="navbar-header">
+            <img id="icon_image_s" src="/Img/notifi.png" alt="">
+            <a href="/Perfil.html"><img id="icon_image_m" src="/Img/profile.png" alt=""></a>
+        </div>
+    </header>
+    <div class="flex_content_ini little_padding_horizontal">
+        <div class="little_margin flex_content_row data_profile_header flex_center_content">
+            <div class="little_padding">
+                <h3 class="margin_null">Mis cursos</h3>
+            </div>
+            <div>
+                <a href="/Crea_curso.html"><img id="logo" src="/Img/add.png" alt=""></a>
+            </div>
+        </div>
+        <div class="flex_content_ini ">
+            <div class="little_margin_course">
+                <form action="/curso_S_E.html">
+                    <button class="btn btn-info border_null padding_null width_btn_course">
+                        <span>
+                            <img src="/Img/imgProvisional.png" alt="">
+                        </span>
+                        <span id="bottom_name_btn_course" class="little_padding flex_content_ini">
+                            <h3>Curso_Estudiante</h3>
+                            <h6>Nombre de Profesor</h6>
+                        </span>
+                    </button>
+                </form>
+            </div>
+            <div class="little_margin_course">
+                <form action="/Curso_S_P.html">
+                    <button class="btn btn-info padding_null width_btn_course">
+                        <span>
+                            <img src="/Img/imgProvisional.png" alt="">
+                        </span>
+                        <span class="little_padding">
+                            <h3>Curso_Profesor</h3>
+                            <h6>Nombre de Profesor</h6>
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

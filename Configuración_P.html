@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/framework.css">
+    <title>Configuración</title>
+</head>
+<body>
+    <header class="navbar border border-light little_margin bg-light">
+        <div id="navbar-header">
+            <img id="logo" src="/Img/logo.png" alt="">
+            <h1 class="navbar-brand">Edúcate</h1>
+        </div>
+        <nav class="navbar-collapse bg-color-page">
+            <ul class="navbar-nav flex_content_row">
+                <li class="nav-item">
+                    <a href="cursos.html" class="nav-link-header">Cursos</a></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/calendario.html" class="nav-link-header">Calendario</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/chat.html" class="nav-link-header">Mensajes</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="navbar-header">
+            <img id="icon_image_s" src="/Img/notifi.png" alt="">
+            <a href="/Perfil.html"><img id="icon_image_m" src="/Img/profile.png" alt=""></a>
+        </div>
+    </header>
+    <div class="flex_content_row">
+        <div id="opc_division_page" class="element_content flex_content_ini data_profile_header flex_center_content">
+            <ul class="navbar-nav flex_content_ini">
+                <li class="nav-item">
+                    <a class="nav-link-header" href="/Configuración_C.html">Cuenta</a>
+                </a></li>
+                <li class="nav-item bg-secondary">
+                    <a class="nav-link-header" href="/Configuración_P.html">Privacidad</a>
+                </li>
+            </ul>
+            <div>
+                <button class="btn btn-danger">Borrar Cuenta</button>
+            </div>
+        </div>
+        <div id="content_division_page" class="little_margin little_padding">
+            <div>
+                <h3>Privacidad</h3>
+            </div>
+            <div>
+                <form>
+                    <input class="input_text input_text_size_XS" type="email" name="email" placeholder="Correo electrónico">
+                    <br>
+                    <input class="input_text input_text_size_XS" type="password" name="password" placeholder="Contraseña">
+                    <br>
+                    <input class="input_text input_text_size_XS" type="password" name="password" placeholder="Confirmar contraseña" required>
+                    <br>
+                    <div id="right_position">
+                        <div id="opc_division_page" class="flex_content_row">
+                            <form id="content_ini_r" class="flex_content_row">
+                                <input class="btn btn-info little_margin_content_hor big_margin_top_S" type="submit" value="Guardar">
+                                <a class="btn btn-warning little_margin_content_hor big_margin_top_S" href="Perfil.html">Cancelar</a>
+                            </form>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

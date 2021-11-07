@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/framework.css">
+    <title>Configuración</title>
+</head>
+<body>
+    <header class="navbar border border-light little_margin bg-light">
+        <div id="navbar-header">
+            <img id="logo" src="/Img/logo.png" alt="">
+            <h1 class="navbar-brand">Edúcate</h1>
+        </div>
+        <nav class="navbar-collapse bg-color-page">
+            <ul class="navbar-nav flex_content_row">
+                <li class="nav-item">
+                    <a href="cursos.html" class="nav-link-header">Cursos</a></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/calendario.html" class="nav-link-header">Calendario</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/chat.html" class="nav-link-header">Mensajes</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="navbar-header">
+            <img id="icon_image_s" src="/Img/notifi.png" alt="">
+            <a href="/Perfil.html"><img id="icon_image_m" src="/Img/profile.png" alt=""></a>
+        </div>
+    </header>
+    <div class="flex_content_row">
+        <div id="opc_division_page" class="element_content flex_content_ini data_profile_header flex_center_content">
+            <ul class="navbar-nav flex_content_ini">
+                <li class="nav-item bg-secondary">
+                    <a class="nav-link-header" href="/crear_actividad.html">Actividad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link-header" href="/crear_carpeta.html">Carpeta</a>
+                </li>
+            </ul>
+        </div>
+        <div id="content_division_page" class="little_margin little_padding">
+            <div>
+                <h3>Nombre de la Materia</h3>
+            </div>
+            <div>
+                <form>
+                    <input class="input_text input_text_size_XS" type="text" name="title" placeholder="Título" required>
+                    <br>
+                    <label for="date">Fecha de entrega:</label>
+                    <br>
+                    <input  class="input_text input_text_size_XS" type="date" name="date" required>
+                    <br>
+                    <textarea  class="input_text input_text_size_XS" name="descrip" id="" cols="25" rows="5" placeholder="Descripción"></textarea>
+                    <br>
+                    <div class="flex_content_row flex_center_content little_padding bg-light border border-dark little_margin_top data_profile_header">
+                        <div>
+                            <input type="file">
+                        </div>
+                        <div>
+                            <input class="btn btn-info little_margin_content_hor" type="submit" value="Guardar">
+                            <a class="btn btn-danger little_margin_content_hor" href="/Curso_S_P.html">Cancelar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
